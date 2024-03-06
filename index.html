@@ -13,6 +13,7 @@
         </div>
     </header>
     <main>
+        <h1>Crea Ticket</h1>
         <div class="container">
             <div class="form-container">
                 <div class="input-container">
@@ -27,17 +28,42 @@
             </div>
             <div class="btn-container">
                 <div class="btn">
-                    <button id="price-calc">Calcola il prezzo</button>
+                    <button id="price-calc">Crea Biglietto</button>
                 </div>
                 <div class="btn">
                     <button id="reset">Annulla</button>
                 </div>
             </div>
-            <div class="message-container">
-                <h3 id="user-message"></h3>
+        </div>
+        <h1 id="tuo-ticket">Il Tuo Ticket</h1>
+        <div class="container ticket">
+            <div class="ticket-name-container">
+                <h2 id="ticket-name"></h2>
+            </div>
+            <div class="ticket-info">
+                <div>
+                    <h3>Offerta</h3>
+                    <span>Biglietto Standard</span>
+                </div>
+                <div>
+                    <h3>Carrozza</h3>
+                    <span>5</span>
+                </div>
+                <div>
+                    <h3>N. Treno</h3>
+                    <span>34276</span>
+                </div>
+                <div>
+                    <h3>Costo Biglietto</h3>
+                    <h3 id="user-message"></h3>
+                </div>
             </div>
         </div>
     </main>
+    <footer>
+        <small>Il prezzo del biglietto è di 0.21€/km.</small>
+        <small>I minorenni hanno diritto ad uno sconto del 20%, gli over 65 hanno diritto ad uno sconto del 40%.</small>
+    </footer>
     <script type="text/javascript" src="./js/script.js"></script>
 </body>
 </html>
