@@ -8,7 +8,7 @@ priceButton.addEventListener('click', function () {
     } else if (userAge > 64) {
         ticketPrice = ticketPrice - ticketPrice * 40 / 100;
     }
-    const userMessage = document.querySelector('#user-message').innerHTML = 'Il prezzo totale è: ' + ticketPrice.toFixed(2) + '€';
+    const userMessage = document.querySelector('#user-message').innerHTML = 'Il prezzo totale è ' + ticketPrice.toFixed(2) + '€';
 });
 const resetButton = document.querySelector('#reset');
 resetButton.addEventListener('click', function () {
