@@ -134,8 +134,13 @@ footer {
         gap: 1rem;
     }
 
+    footer {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+    }
     main {
-        height: fit-content;
+        overflow-y: auto;
     }
 }
 
