@@ -5,7 +5,7 @@
 }
 
 header {
-    background-color: red;
+    background-color: rgb(246, 16, 16);
     padding: 1rem;
    
 }
@@ -30,15 +30,16 @@ main {
 .container {
     width: 60%;
     margin: 0 auto;
-    padding: 1rem;
+    padding: 2rem;
     background-color: white;
     border: 1px solid black;
+    border-radius: 0.7rem;
 }
 
 .form-container {
     display: flex;
     justify-content: space-evenly;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
 }
 
 .btn-container {
@@ -47,10 +48,24 @@ main {
     gap: 1rem;
 }
 
+button {
+    background-color: rgb(242, 40, 40);
+    color: white;
+    padding: 0.4rem 1rem;
+    border-radius: 50px;
+    border: none;
+}
+
+input {
+    text-align: center;
+    height: 2rem;
+}
+
 .message-container {
     max-width: 50%;
     margin: 0 auto;
     text-align: center;
-    margin-top: 0.5rem;
+    margin-top: 1.5rem;
+    color: rgb(71, 69, 69);
 }
 
